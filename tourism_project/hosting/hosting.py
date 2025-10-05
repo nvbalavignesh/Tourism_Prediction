@@ -17,8 +17,7 @@ except RepositoryNotFoundError:
     api.create_repo(
         repo_id=repo_id, 
         repo_type=repo_type, 
-        private=False,
-        space_sdk="streamlit"
+        private=False
     )
     print(f"Space '{repo_id}' created.")
 
