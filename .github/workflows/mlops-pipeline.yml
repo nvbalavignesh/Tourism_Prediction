@@ -168,7 +168,7 @@ jobs:
       - name: Deployment Status
         run: |
           echo "🚀 Deployment completed successfully!"
-          echo "📱 Your Streamlit app should be available at: https://huggingface.co/spaces/itsjarvis/Tourism-Prediction"
+          echo "📱 Your Streamlit app should be available at: https://huggingface.co/spaces/nvbalavignesh/Tourism-Prediction"
 
   notify-completion:
     runs-on: ubuntu-latest
